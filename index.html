@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Autobiography — Kenneth Yagyagan</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta name="description" content="A creative, responsive autobiography template to showcase personal story, timeline, and achievements.">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <div class="hero" id="hero">
+        <img src="./image/profile.png" alt="[Your portrait]" class="portrait" />
+        <div class="hero-text">
+          <h1 id="name">Kenneth Yagyagan</h1>
+          <p class="tagline">Coder • Editor • Reader</p>
+          <p class="lede">This is the story of how i become who am i.</p>
+          <div class="hero-ctas">
+            <a class="cta" href="#timeline">Here's my journey</a>
+            <a class="cta ghost" href="resume.pdf" download aria-label="Download resume">Download Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="meta" aria-label="Profile details">
+        <div class="meta-actions">
+          <button id="theme-toggle" class="icon-btn" aria-pressed="false" aria-label="Toggle color theme">🌗</button>
+        </div>
+        <ul>
+          <li><strong>Location:</strong> [City, Country]</li>
+          <li><strong>Work:</strong> [Role at Company] / Freelance</li>
+          <li><strong>Interests:</strong> Design, Code, Travel, Music</li>
+          <li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+        </ul>
+        <p class="small">Tip: Replace the portrait image and resume.pdf with your files; the theme preference is saved locally.</p>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container about">
+      <h2>About Me</h2>
+      <p>I grew up curious about how things work — taking apart gadgets, studying editing, and exploring the technology</p>
+
+      <div class="profile-grid">
+        <div>
+          <h3>Philosophy</h3>
+          <p>Build with empathy, apathy, and respect delight — small details decide whether something feels right.</p>
+
+          <h3>Skills</h3>
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-info"><span>HTML & CSS</span><span>90%</span></div>
+              <div class="skill-bar" data-level="90"><span></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>JavaScript</span><span>75%</span></div>
+              <div class="skill-bar" data-level="75"><span></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Design & UX</span><span>80%</span></div>
+              <div class="skill-bar" data-level="80"><span></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Writing & Storytelling</span><span>85%</span></div>
+              <div class="skill-bar" data-level="85"><span></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Favorite Projects</h3>
+          <p>videos edits, video ads, working song site,.</p>
+          <div class="project-links">
+            <a href="#" class="pill">Project A</a>
+            <a href="#" class="pill">Project B</a>
+            <a href="#" class="pill">Workshop series</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="container timeline">
+      <h2>Journey & Timeline</h2>
+      <ol class="timeline-list" aria-label="Life timeline">
+        <li class="reveal">
+          <time class="time">Early Years</time>
+          <div class="event">
+            <h4>Discovery</h4>
+            <p>I learned to read maps and radios — those hours of wandering shaped my love of exploration and curiosity about context.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <time class="time">Learning</time>
+          <div class="event">
+            <h4>Learning by Doing</h4>
+            <p>I built my first website, joined open-source chats, and found mentors who taught me clarity and craft.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <time class="time">Adventures</time>
+          <div class="event">
+            <h4>Travel & Work</h4>
+            <p>Travel opened my perspective. Working with diverse teams taught me to translate ideas across cultures and constraints.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <time class="time">Turning Point</time>
+          <div class="event">
+            <h4>Choosing Creativity</h4>
+            <p>I shifted from chasing titles to chasing impact — focusing on small, meaningful projects that help others learn and create.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <time class="time">Now & Beyond</time>
+          <div class="event">
+            <h4>Ongoing</h4>
+            <p>I keep learning, sharing, and building: mentoring, making mini-books, and experimenting with ideas that nudge people to act with curiosity.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="values" class="container values">
+      <h2>Values & Rituals</h2>
+      <p>Daily curiosity, weekly reflection, and monthly creative experiments. I measure progress by what I learn and who I help.</p>
+      <ul class="values-list">
+        <li><strong>Curiosity</strong> — ask better questions</li>
+        <li><strong>Clarity</strong> — simplify the complex</li>
+        <li><strong>Kindness</strong> — respect every reader and user</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Get in touch</h2>
+      <p>If you'd like to collaborate or read more, drop a message: <a href="mailto:you@example.com">you@example.com</a> or follow me on social media.</p>
+      <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain" aria-label="Contact form (opens email client)">
+        <label>
+          Your name
+          <input type="text" name="name" placeholder="Your name" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Hi — I liked your project..."></textarea>
+        </label>
+        <div>
+          <button type="submit" class="cta">Send (mailto)</button>
+          <button type="button" id="print-btn" class="cta ghost">Print / Save as PDF</button>
+        </div>
+      </form>
+      <p class="small">Want this page as a printable PDF? Use the Print button or browser print dialog — the layout is print-friendly.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> <span id="fname">[Your Name]</span>. Crafted with care. Template by a creative assistant.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const themeToggle = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    const THEME_KEY = 'autobio-theme';
+
+    function applyTheme(theme) {
+      if (theme === 'light') {
+        root.classList.add('light-theme');
+        themeToggle.setAttribute('aria-pressed', 'true');
+      } else {
+        root.classList.remove('light-theme');
+        themeToggle.setAttribute('aria-pressed', 'false');
+      }
+    }
+
+    const saved = localStorage.getItem(THEME_KEY);
+    if (saved) applyTheme(saved);
+    else {
+      const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+      applyTheme(prefersLight ? 'light' : 'dark');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const isLight = root.classList.toggle('light-theme');
+      const theme = isLight ? 'light' : 'dark';
+      localStorage.setItem(THEME_KEY, theme);
+      themeToggle.setAttribute('aria-pressed', isLight ? 'true' : 'false');
+    });
+
+    function animateSkills() {
+      const bars = document.querySelectorAll('.skill-bar');
+      bars.forEach(bar => {
+        const level = bar.getAttribute('data-level');
+        bar.querySelector('span').style.width = level + '%';
+      });
+    }
+    const reveals = document.querySelectorAll('.reveal');
+    function onScrollReveal() {
+      const bottom = window.innerHeight * 0.85;
+      reveals.forEach(r => {
+        const rect = r.getBoundingClientRect();
+        if (rect.top < bottom) r.classList.add('visible');
+      });
+    }
+    window.addEventListener('scroll', onScrollReveal);
+    window.addEventListener('load', () => {
+      animateSkills();
+      onScrollReveal();
+    });
+
+    document.getElementById('print-btn').addEventListener('click', () => window.print());
+
+    (function(){
+      function handleFirstTab(e) {
+        if (e.key === 'Tab') {
+          document.documentElement.classList.add('user-is-tabbing');
+          window.removeEventListener('keydown', handleFirstTab);
+        }
+      }
+      window.addEventListener('keydown', handleFirstTab);
+    })();
+  </script>
+</body>
+</html>
